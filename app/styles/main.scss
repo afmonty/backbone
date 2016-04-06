@@ -1,0 +1,36 @@
+
+@import 'variables';
+
+body {
+  background: $light-grey;
+}
+section{
+	clear: both;
+	display: inline-block;
+
+}
+.shirtDiv{
+	clear: both;
+	margin-left: 10em;
+	margin-top: 20em;
+	overflow: hidden;
+	height: 400px;
+	width: 280px
+}
+button{
+	width: 18%;
+	height: 30px;
+}
+.price{
+	float: right;
+	margin-right: 1.5em;
+}
+.rotate{
+	height: 2em;
+	width: 2em;
+	float: right;
+	background: white;
+	margin-right: 5em;
+	clear: both;
+	position: absolute; right: 5px; top: 5px;
+}
